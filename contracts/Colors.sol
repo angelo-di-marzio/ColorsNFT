@@ -330,7 +330,6 @@ contract Colors is ERC721Enumerable, ReentrancyGuard, Ownable {
             )
         );
         output = string(abi.encodePacked("data:application/json;base64,", json));
-
         return output;
     }
 
